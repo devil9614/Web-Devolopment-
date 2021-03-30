@@ -1,3 +1,55 @@
 body {
-    background-image:
+    background-color: black;
+    width: 100%;
+}
+
+#heyText,
+#iamText {
+    font-family: 'umba Slab';
+    font-size: 10vw;
+    color: white;
+}
+
+#iamText {
+    margin-left: 15vw;
+}
+
+#vl {
+    border-left: 0.3vw solid white;
+    height: 18vw;
+    width: ;
+    position: relative;
+    left: 60%;
+    opacity: 0.4;
+}
+
+#smallAbout {
+    position: relative;
+    left: 10%;
+    /* bottom: 30%; */
+    font-size: 3vw;
+    /* transition: 0.8s; */
+}
+
+#smallAbout p {
+    transition: 0.7s;
+}
+
+#smallAbout p:hover {
+    color: white;
+    /* transform: scale(1.1); */
+    cursor: auto;
+}
+
+.cUser {
+    margin-top: 5vw;
+    /* width: 80%; */
+    margin-left: 10vw;
+    margin-right: 10vw;
+    height: 15vw;
+}
+
+#carousal {
+    padding-top: 5vw;
+    padding-bottom: 40vw;
 }

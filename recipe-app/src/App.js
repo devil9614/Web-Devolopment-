@@ -12,19 +12,19 @@ function App() {
   const [query,SetQuery] = useState("");
 
   useEffect(() => {
-    Recipes();
+    Recipes()
   },[query]);
 
   const Recipes = async () => {
     const response = await fetch(`https://api.edamam.com/search?q=${query}&app_id=${Api_ID}&app_key=${Api_Key}`);
     const data = await response.json();
     SetRecipies(data.hits);
-    console.log(data.hits);
+    // console.log(data.hits);
   }
 
   const updateChange = e => {
     SetSearch(e.target.value);
-    console.log("its updating")
+    // console.log("its updating")
   }
 
   const getSearch = e =>{
